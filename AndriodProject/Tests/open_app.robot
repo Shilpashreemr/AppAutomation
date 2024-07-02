@@ -15,7 +15,7 @@ Login_test
     Input text    com.practo.fabric:id/email_edit_text    mobile.practo+consult1@gmail.com
     Input text    com.practo.fabric:id/password_edit_text    practo@321
     click element    com.practo.fabric:id/continue_button
-
+#test_deny_notifications
    # wait until element is visible  com.android.permissioncontroller:id/permission_deny_button  10
    # click element   com.android.permissioncontroller:id/permission_deny_button
 Close_popup
